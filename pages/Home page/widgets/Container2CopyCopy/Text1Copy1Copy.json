@@ -3,8 +3,8 @@
     "widgetName": "Text1Copy1Copy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 12,
-    "bottomRow": 16,
+    "topRow": 10.4,
+    "bottomRow": 14.4,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,10 +19,11 @@
     "truncateButtonColor": "#FFC13D",
     "text": "{{List.selectedItem.year}}",
     "key": "sf3h3c9rxg",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
-    "rightColumn": 48,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "29ao4fy98e",
     "logBlackList": {
         "widgetName": true,
@@ -55,6 +56,7 @@
         "isLoading": true,
         "fontSize": true
     },
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
     "textColor": "#18181b",
@@ -62,8 +64,10 @@
     "parentId": "fz89s8b2nw",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
+    "alignment": "start",
     "minDynamicHeight": 4
 }

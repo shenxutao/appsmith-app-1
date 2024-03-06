@@ -6,29 +6,31 @@
     "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3.svg",
-    "topRow": 10,
-    "bottomRow": 58,
+    "topRow": 7.2,
+    "bottomRow": 51.400000000000006,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
     "animateLoading": true,
     "parentColumnSpace": 18.0625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 10,
+    "leftColumn": 0,
     "dynamicBindingPathList": [],
     "children": [{
         "boxShadow": "none",
         "widgetName": "Canvas7",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 470,
+        "bottomRow": 442,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 430,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
+        "positioning": "vertical",
         "key": "he8asa5zlk",
         "labelTextSize": "0.875rem",
         "rightColumn": 433.5,
@@ -40,22 +42,43 @@
         "parentId": "5m35f2knvq",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "0px"
+        "responsiveBehavior": "fill",
+        "borderRadius": "0px",
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "dkt74k4g49",
+                    "align": "start"
+                },
+                {
+                    "id": "6mhoybts1i",
+                    "align": "end"
+                }
+            ]},
+            {"children": [{
+                "id": "l7lo4dj0e0",
+                "align": "center"
+            }]}
+        ]
     }],
     "borderWidth": "2",
     "key": "p5ueindstb",
+    "flexVerticalAlignment": "stretch",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#FFFFFF",
-    "rightColumn": 54,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "5m35f2knvq",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": true,
     "version": 1,
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "15px",
     "maxDynamicHeight": 9000,
+    "alignment": "center",
     "minDynamicHeight": 4
 }

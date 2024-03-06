@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 680,
+          "bottomRow": 714.0000000000002,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -21,9 +21,50 @@
           "canExtend": true,
           "version": 89,
           "minHeight": 1292,
+          "useAutoLayout": true,
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "leftColumn": 0,
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "d3wvqzm33x",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "q5qqvhujdl",
+                  "align": "center"
+                },
+                {
+                  "id": "7if4vam0z1",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "vgdmox0ea3",
+                  "align": "start"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "7fqhlrhpyi",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
         },
         "layoutOnLoadActions": [
           [

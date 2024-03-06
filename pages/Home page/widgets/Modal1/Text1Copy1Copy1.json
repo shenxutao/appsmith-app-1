@@ -4,8 +4,8 @@
     "dynamicPropertyPathList": [{"key": "textColor"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 45,
-    "bottomRow": 49,
+    "topRow": 56.000000000000014,
+    "bottomRow": 60.000000000000014,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -23,10 +23,11 @@
     "truncateButtonColor": "#FFC13D",
     "text": "{{ List.selectedItem.last_service_date > DatePicker.formattedDate ? \"Yes\" : \"No\"}}",
     "key": "sf3h3c9rxg",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
-    "rightColumn": 61,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "kpv148k7ia",
     "logBlackList": {
         "widgetName": true,
@@ -59,6 +60,7 @@
         "isLoading": true,
         "fontSize": true
     },
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
     "textColor": "{{ List.selectedItem.last_service_date > DatePicker.formattedDate ? \"#dc2626\" : \"#15803d\" }}",
@@ -66,8 +68,10 @@
     "parentId": "7s5o2k4yjp",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

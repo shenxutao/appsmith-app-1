@@ -1,11 +1,13 @@
 {
+    "mobileWidthInPercentage": 0,
     "boxShadow": "none",
     "widgetName": "Modal1",
+    "widthInPercentage": 0,
     "isCanvas": true,
     "displayName": "Modal",
     "iconSVG": "/static/media/icon.4975978e.svg",
-    "topRow": 95,
-    "bottomRow": 95,
+    "topRow": 72.60000000000002,
+    "bottomRow": 140.8,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -13,24 +15,26 @@
     "animateLoading": true,
     "parentColumnSpace": 1,
     "dynamicTriggerPathList": [{"key": "onClose"}],
-    "leftColumn": 0,
+    "leftColumn": 32,
     "dynamicBindingPathList": [],
     "children": [{
         "boxShadow": "none",
         "widgetName": "Canvas6",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 590,
+        "bottomRow": 680,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": true,
         "hideCard": true,
         "shouldScrollContents": false,
-        "minHeight": 592,
+        "minHeight": 550,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "dynamicTriggerPathList": [],
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "isDisabled": false,
         "key": "nmcz90tg6n",
         "labelTextSize": "0.875rem",
@@ -42,14 +46,125 @@
         "parentId": "7fqhlrhpyi",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "0px"
+        "responsiveBehavior": "fill",
+        "borderRadius": "0px",
+        "flexLayers": [
+            {"children": [
+                {
+                    "id": "4i1btq2dhn",
+                    "align": "start"
+                },
+                {
+                    "id": "ys00am6clo",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "zh45y6b1cj",
+                    "align": "center"
+                },
+                {
+                    "id": "48l0xpei2x",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "vn2ro3f0ih",
+                    "align": "start"
+                },
+                {
+                    "id": "i4hjxm5r91",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "0iml18pz9o",
+                    "align": "start"
+                },
+                {
+                    "id": "8fc4435hr6",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "vikufmta1j",
+                    "align": "start"
+                },
+                {
+                    "id": "b6qbien9pj",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "y02vtsu9g5",
+                    "align": "start"
+                },
+                {
+                    "id": "s3ztwtgohz",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "puy84039rt",
+                    "align": "center"
+                },
+                {
+                    "id": "91u0dxygce",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "vq9vt0czqb",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "yg4tyuwb5b",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "9sno3ql9ej",
+                    "align": "center"
+                },
+                {
+                    "id": "j6epw0my1o",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "cqhak8xawg",
+                    "align": "center"
+                },
+                {
+                    "id": "kpv148k7ia",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "lcovnc4ozl",
+                    "align": "start"
+                },
+                {
+                    "id": "xtwzdq1wfq",
+                    "align": "end"
+                }
+            ]}
+        ]
     }],
     "key": "ldpsx47kgr",
-    "height": 592,
+    "height": 684.0000000000002,
     "labelTextSize": "0.875rem",
-    "rightColumn": 0,
+    "rightColumn": 32,
     "detachFromLayout": true,
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "7fqhlrhpyi",
     "canOutsideClickClose": true,
     "canEscapeKeyClose": true,
@@ -58,8 +173,9 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "onClose": "{{closeModal('Modal1')}}",
+    "responsiveBehavior": "hug",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "width": 456,
-    "minDynamicHeight": 4
+    "minDynamicHeight": 8
 }

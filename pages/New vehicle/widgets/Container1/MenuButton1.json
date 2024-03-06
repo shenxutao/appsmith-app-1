@@ -4,8 +4,8 @@
     "widgetName": "MenuButton1",
     "displayName": "Menu Button",
     "iconSVG": "/static/media/icon.0341d17d.svg",
-    "topRow": 1,
-    "bottomRow": 5,
+    "topRow": 0,
+    "bottomRow": 4,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
@@ -16,12 +16,13 @@
         {"key": "menuItems.menuItem2.onClick"},
         {"key": "menuItems.menuItem3.onClick"}
     ],
-    "leftColumn": 45,
+    "leftColumn": 48,
     "dynamicBindingPathList": [{"key": "menuColor"}],
     "isDisabled": false,
     "key": "zmavr3lxib",
+    "flexVerticalAlignment": "end",
     "isDeprecated": false,
-    "rightColumn": 61,
+    "rightColumn": 64,
     "menuVariant": "SECONDARY",
     "widgetId": "bgucoouc9q",
     "menuItems": {
@@ -59,8 +60,10 @@
     "parentId": "asgfasbaj1",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "hug",
     "borderRadius": "0.375rem",
     "menuColor": "{{appsmith.theme.colors.backgroundColor}}",
     "menuItemsSource": "STATIC",
-    "placement": "CENTER"
+    "placement": "CENTER",
+    "alignment": "end"
 }

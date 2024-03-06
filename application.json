@@ -21,6 +21,11 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "clonedFromApplicationId": "62587b170d3d384069c0f765",
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "AUTO"
+    }
+  },
   "color": "#C7F3E3",
   "icon": "calender",
   "unpublishedAppLayout": {

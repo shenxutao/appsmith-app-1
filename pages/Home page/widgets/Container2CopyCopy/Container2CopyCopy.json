@@ -9,8 +9,8 @@
     ],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3.svg",
-    "topRow": 11,
-    "bottomRow": 68,
+    "topRow": 7.2,
+    "bottomRow": 66.20000000000002,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -24,15 +24,17 @@
         "widgetName": "Canvas2CopyCopyCopy",
         "displayName": "Canvas",
         "topRow": 0,
-        "bottomRow": 560,
+        "bottomRow": 580.0000000000001,
         "parentRowSpace": 1,
         "type": "CANVAS_WIDGET",
         "canExtend": false,
         "hideCard": true,
-        "minHeight": 400,
+        "minHeight": 510,
+        "useAutoLayout": true,
         "parentColumnSpace": 1,
         "leftColumn": 0,
         "dynamicBindingPathList": [],
+        "positioning": "vertical",
         "key": "ffadum178l",
         "labelTextSize": "0.875rem",
         "rightColumn": 433.5,
@@ -44,22 +46,115 @@
         "parentId": "7if4vam0z1",
         "renderMode": "CANVAS",
         "isLoading": false,
-        "borderRadius": "0px"
+        "responsiveBehavior": "fill",
+        "borderRadius": "0px",
+        "flexLayers": [
+            {"children": [{
+                "id": "9i2sa6avi1",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "9q0963yd1v",
+                    "align": "end"
+                },
+                {
+                    "id": "zfxm28uth8",
+                    "align": "end"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "aze650ztiq",
+                    "align": "start"
+                },
+                {
+                    "id": "29ao4fy98e",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "dkxmmn54zy",
+                    "align": "start"
+                },
+                {
+                    "id": "hridxz5et3",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "y8xu813uut",
+                    "align": "start"
+                },
+                {
+                    "id": "d89ojxromb",
+                    "align": "start"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "91tmos0qnc",
+                    "align": "center"
+                },
+                {
+                    "id": "t9piil94y4",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "yweu6ncmnh",
+                "align": "start"
+            }]},
+            {"children": [{
+                "id": "tmuv6ei5ma",
+                "align": "center"
+            }]},
+            {"children": [
+                {
+                    "id": "cqopd3b6km",
+                    "align": "center"
+                },
+                {
+                    "id": "vc0rp2orqp",
+                    "align": "center"
+                }
+            ]},
+            {"children": [
+                {
+                    "id": "kxjqa5qffp",
+                    "align": "center"
+                },
+                {
+                    "id": "zavmg6rdk2",
+                    "align": "center"
+                }
+            ]},
+            {"children": [{
+                "id": "ajhlh1ompu",
+                "align": "end"
+            }]}
+        ]
     }],
     "borderWidth": "2",
     "key": "6bzu8mpizb",
+    "flexVerticalAlignment": "stretch",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#FFFFFF",
-    "rightColumn": 54,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 64,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "7if4vam0z1",
     "containerStyle": "card",
+    "minWidth": 450,
     "isVisible": "{{List.selectedItem.vin.length > 0}}",
     "version": 1,
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "15px",
     "maxDynamicHeight": 9000,
+    "alignment": "center",
     "minDynamicHeight": 4
 }

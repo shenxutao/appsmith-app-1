@@ -4,8 +4,8 @@
     "dynamicPropertyPathList": [{"key": "textColor"}],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 44,
-    "bottomRow": 48,
+    "topRow": 46.80000000000001,
+    "bottomRow": 50.80000000000001,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -23,10 +23,11 @@
     "truncateButtonColor": "#FFC13D",
     "text": "{{JSObject1.service_due()}}",
     "key": "sf3h3c9rxg",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
-    "rightColumn": 61,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "zavmg6rdk2",
     "logBlackList": {
         "widgetName": true,
@@ -59,6 +60,7 @@
         "isLoading": true,
         "fontSize": true
     },
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
     "textColor": "{{ Text1Copy1.text === \"No\" ? \"#15803d\": \"#dc2626\" }}",
@@ -66,8 +68,10 @@
     "parentId": "fz89s8b2nw",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

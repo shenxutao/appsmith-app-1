@@ -3,8 +3,8 @@
     "widgetName": "register_vin",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.97c59b52.svg",
-    "topRow": 5,
-    "bottomRow": 9,
+    "topRow": 5.2,
+    "bottomRow": 9.2,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -19,10 +19,11 @@
     "truncateButtonColor": "#FFC13D",
     "text": "{{List.selectedItem.vin}}",
     "key": "sf3h3c9rxg",
+    "flexVerticalAlignment": "end",
     "labelTextSize": "0.875rem",
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textAlign": "LEFT",
-    "dynamicHeight": "FIXED",
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "48l0xpei2x",
     "logBlackList": {
         "widgetName": true,
@@ -55,6 +56,7 @@
         "isLoading": true,
         "fontSize": true
     },
+    "minWidth": 450,
     "isVisible": true,
     "fontStyle": "",
     "textColor": "#231F20",
@@ -62,8 +64,10 @@
     "parentId": "7s5o2k4yjp",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "responsiveBehavior": "fill",
     "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "fontSize": "0.875rem",
+    "alignment": "center",
     "minDynamicHeight": 4
 }

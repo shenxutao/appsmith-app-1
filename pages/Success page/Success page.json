@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -21,9 +21,30 @@
           "canExtend": true,
           "version": 87,
           "minHeight": 670,
+          "useAutoLayout": true,
           "parentColumnSpace": 1,
+          "responsiveBehavior": "fill",
           "dynamicBindingPathList": [],
-          "leftColumn": 0
+          "leftColumn": 0,
+          "positioning": "vertical",
+          "flexLayers": [
+            {
+              "children": [
+                {
+                  "id": "5v73kc5zs2",
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "children": [
+                {
+                  "id": "oggvuhflpt",
+                  "align": "center"
+                }
+              ]
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],

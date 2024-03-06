@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.db8a9cbd.svg",
-    "topRow": 8,
+    "topRow": 6.2,
     "isSortable": false,
     "type": "TABLE_WIDGET",
     "animateLoading": true,
@@ -26,8 +26,9 @@
         {"key": "derivedColumns.customColumn1.computedValue"},
         {"key": "primaryColumns.customColumn1.computedValue"}
     ],
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
+    "flexVerticalAlignment": "end",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": false,
     "isVisible": true,
@@ -53,6 +54,7 @@
         }
     },
     "borderRadius": "0.375rem",
+    "alignment": "center",
     "columnSizeMap": {
         "task": 245,
         "step": 62,
@@ -74,7 +76,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "primaryColumns.customColumn1.textColor"}],
     "displayName": "Table",
-    "bottomRow": 44,
+    "bottomRow": 42.2,
     "parentRowSpace": 10,
     "defaultSelectedRow": "0",
     "hideCard": false,
@@ -292,7 +294,7 @@
         "cellBackground": "transparent"
     }},
     "labelTextSize": "0.875rem",
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "l7lo4dj0e0",
     "tableData": "{{JSObject1.search()}}",
@@ -303,6 +305,7 @@
     "renderMode": "CANVAS",
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": false,
+    "responsiveBehavior": "fill",
     "isVisiblePagination": false,
     "cellBackground": "#FFFFFF",
     "verticalAlignment": "CENTER"
