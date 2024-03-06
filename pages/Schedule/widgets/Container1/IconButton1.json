@@ -1,0 +1,33 @@
+{
+    "boxShadow": "none",
+    "widgetName": "IconButton1",
+    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+    "displayName": "Icon Button",
+    "iconSVG": "/static/media/icon.1a0c634a.svg",
+    "topRow": 1,
+    "bottomRow": 5,
+    "parentRowSpace": 10,
+    "type": "ICON_BUTTON_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 12.01953125,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "isDisabled": false,
+    "key": "7zll9m7o00",
+    "isDeprecated": false,
+    "rightColumn": 5,
+    "iconName": "wrench",
+    "widgetId": "rthgak2ppu",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "7gb6mx60vt",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY"
+}
